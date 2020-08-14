@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_action_cat"
+        android:title="@string/title_home"
+        android:titleCondensed="Blender-Bold" />
+
+    <item
+        android:id="@+id/navigation_product_specs"
+        android:icon="@drawable/ic_action_product_specs"
+        android:title="@string/title_dashboard"
+        android:titleCondensed="Blender-Bold" />
+
+    <item
+        android:id="@+id/navigation_contact_us"
+        android:icon="@drawable/ic_contact_menu"
+        android:title="@string/title_notifications"
+        android:titleCondensed="Blender-Bold" />
+
+</menu>
