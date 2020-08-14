@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hvac.vtronix"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:7:5-76
+12-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:8:5-76
+13-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:9:5-79
+14-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:10:5-81
+15-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:9:5-79
+16-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:12:5-75
+17-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:12:22-72
+18
+19    <application
+19-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:14:5-88:19
+20        android:allowBackup="true"
+20-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:15:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:hardwareAccelerated="true"
+22-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:20:9-43
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:16:9-43
+24        android:label="@string/app_name"
+24-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:17:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:18:9-54
+26        android:supportsRtl="true"
+26-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:19:9-35
+27        android:theme="@style/AppTheme"
+27-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:22:9-40
+28        android:usesCleartextTraffic="true" >
+28-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:21:9-44
+29        <activity
+29-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:25:9-34:20
+30            android:name="com.hvac.vtronix.MainActivity"
+30-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:25:19-47
+31            android:label="@string/app_name"
+31-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:27:13-45
+32            android:screenOrientation="portrait" >
+32-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:26:13-49
+33            <intent-filter>
+33-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:28:13-32:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:29:17-69
+34-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:29:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:31:17-77
+36-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:31:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:36:9-44:20
+40            android:name="com.hvac.vtronix.activity.FirstPageCategory"
+40-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:36:19-61
+41            android:parentActivityName="com.hvac.vtronix.MainActivity"
+41-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:38:13-55
+42            android:screenOrientation="portrait" >
+42-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:37:13-49
+43            <meta-data
+43-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:40:13-42:49
+44                android:name="android.support.PARENT_ACTIVITY"
+44-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:41:17-63
+45                android:value=".MainActivity" />
+45-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:42:17-46
+46        </activity>
+47        <activity
+47-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:46:9-54:20
+48            android:name="com.hvac.vtronix.activity.FirstPageInnerCategory"
+48-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:46:19-66
+49            android:parentActivityName="com.hvac.vtronix.activity.FirstPageCategory"
+49-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:48:13-69
+50            android:screenOrientation="portrait" >
+50-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:47:13-49
+51            <meta-data
+51-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:40:13-42:49
+52                android:name="android.support.PARENT_ACTIVITY"
+52-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:41:17-63
+53                android:value=".activity.FirstPageCategory" />
+53-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:42:17-46
+54        </activity>
+55        <activity
+55-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:56:9-64:20
+56            android:name="com.hvac.vtronix.activity.SecondProductDetailsPage"
+56-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:56:19-68
+57            android:parentActivityName="com.hvac.vtronix.activity.FirstPageInnerCategory"
+57-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:58:13-74
+58            android:screenOrientation="portrait" >
+58-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:57:13-49
+59            <meta-data
+59-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:40:13-42:49
+60                android:name="android.support.PARENT_ACTIVITY"
+60-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:41:17-63
+61                android:value=".activity.FirstPageInnerCategory" />
+61-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:42:17-46
+62        </activity>
+63        <activity
+63-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:66:9-75:20
+64            android:name="com.hvac.vtronix.activity.DocumentsViewPageActivity"
+64-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:66:19-69
+65            android:hardwareAccelerated="false"
+65-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:68:13-48
+66            android:parentActivityName="com.hvac.vtronix.activity.SecondProductDetailsPage"
+66-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:69:13-76
+67            android:screenOrientation="portrait" >
+67-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:67:13-49
+68            <meta-data
+68-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:40:13-42:49
+69                android:name="android.support.PARENT_ACTIVITY"
+69-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:41:17-63
+70                android:value=".activity.SecondProductDetailsPage" />
+70-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:42:17-46
+71        </activity>
+72        <activity
+72-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:77:9-85:20
+73            android:name="com.hvac.vtronix.activity.ProductsSpecsTabDetailsActivity"
+73-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:77:19-75
+74            android:parentActivityName="com.hvac.vtronix.MainActivity"
+74-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:79:13-55
+75            android:screenOrientation="portrait" >
+75-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:78:13-49
+76            <meta-data
+76-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:40:13-42:49
+77                android:name="android.support.PARENT_ACTIVITY"
+77-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:41:17-63
+78                android:value=".MainActivity" />
+78-->E:\AndroidApps\PlayStoreApps\ClientPath\Vtronix\app\src\main\AndroidManifest.xml:42:17-46
+79        </activity>
+80
+81        <provider
+81-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+82            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+83            android:authorities="com.hvac.vtronix.lifecycle-process"
+83-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+84            android:exported="false"
+84-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+85            android:multiprocess="true" />
+85-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0dd7ac39faaf6c192fa045218325acf5\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+86    </application>
+87
+88</manifest>
